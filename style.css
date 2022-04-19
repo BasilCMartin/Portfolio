@@ -1,0 +1,52 @@
+/* psuedo-classes for link colors */
+a:link {color: orange}
+a:visited {color:red}
+a:hover {color: green}
+a:active {color: blue}
+
+body {
+  margin: 0;
+  font-family: Helvetica, Arial;
+  
+}
+h1 {
+  height: auto;
+  font-family: Arial;
+  text-align: center;
+}
+p {
+  font-family: 'Times New Roman', Courier;
+  font-size: 15px
+}
+main {
+  background-color: hsla(0, 100%, 90%, 0.3);
+  height: auto;
+}
+/*neopolitan color scheme */
+header {
+  background-color: hsla(35, 74%, 36%, 0.4);
+  background-size: auto;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+  height: auto;
+}
+div {
+  padding: 25px 25px 25px 25px
+}
+/* left padding most important for visual */
+section {
+  padding: 10px 10px 10px 25px
+}
+/* image can't be centered at 100%width
+all this img and .me to center/size image properly*/
+img {
+  width: 75%;
+  height:100%;
+}
+.me {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:200px;
+  width:200px;
+}
